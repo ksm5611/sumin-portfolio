@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsList from "./SkillsList";
+// import SkillsList from "./SkillsList";
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {

@@ -3,9 +3,7 @@ import React from "react";
 const ProjectCard = () => {
   return (
     <div className="card">
-      <div className="image">
-        <img></img>
-      </div>
+      <div className="image"></div>
       <div className="content">
         <div className="header">Project Name Here</div>
         <div className="description">

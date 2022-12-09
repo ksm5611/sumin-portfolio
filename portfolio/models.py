@@ -4,7 +4,7 @@ from django.db import models
 class ProjectInfo(models.Model):
 
   name = models.CharField(max_length=30)
-  description = models.TextField(max_length=200)
+  description = models.TextField(max_length=1000)
   github = models.URLField()
   demo = models.URLField(blank=True)
   image = models.FileField(upload_to="photos/",blank=True)
