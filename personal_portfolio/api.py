@@ -6,6 +6,5 @@ from .serializers import ProjectInfoSerializer
 # allows us to create a CRUD api without specifying methods for functionality
 
 class ProjectInfoViewSet(viewsets.ModelViewSet):
-
   queryset = ProjectInfo.objects
   serializer_class = ProjectInfoSerializer

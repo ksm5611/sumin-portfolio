@@ -17,9 +17,10 @@ const ProjectCard = () => {
           if (!project) {
             return <div>Loading..</div>;
           } else {
+            console.log(project.image);
             return (
               <div className="card" key={project.name}>
-                <div className="image">{project.image}</div>
+                <img alt="img" src={project.image} />
                 <div className="content">
                   <div className="header">{project.name}</div>
                   <div className="description">
