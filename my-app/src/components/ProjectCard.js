@@ -17,19 +17,17 @@ const ProjectCard = () => {
           if (!project) {
             return <div>Loading..</div>;
           } else {
-            console.log(project.image);
             return (
               <div className="card" key={project.name}>
                 <img alt="img" src={project.image} />
                 <div className="content">
                   <div className="header">{project.name}</div>
-                  <div className="description">
-                    <p>{project.description}</p>
-                  </div>
+                  <div className="description">{project.description}</div>
                 </div>
                 <div className="extra content">
-                  <button className="ui button">github</button>
-                  <button className="ui button">Demo</button>
+                  <a href={project.github}>
+                    <button className="ui button">github</button>
+                  </a>
                 </div>
               </div>
             );

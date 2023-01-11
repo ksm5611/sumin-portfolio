@@ -1,5 +1,4 @@
 import React from "react";
-// import SkillsList from "./SkillsList";
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
@@ -11,16 +10,14 @@ const Skills = () => {
       "HTML",
       "CSS",
       "Bootstrap",
-      "SemanticUI",
+      "Ejs",
+      "JQuery",
+      "AJAX",
     ],
   };
   const backend = {
     name: "Backend Stack",
-    skills: ["Python", "Django", "AWS", "PostgreSQL"],
-  };
-  const gameDev = {
-    name: "Game Development",
-    skills: ["Unity", "Phaser", "PyGame"],
+    skills: ["Python", "Django", "PostgreSQL", "Node.js", "Ruby", "MySQL"],
   };
 
   return (
@@ -29,7 +26,6 @@ const Skills = () => {
       <div className="ui centered raised cards">
         <SkillsCard skills={frontend} />
         <SkillsCard skills={backend} />
-        <SkillsCard skills={gameDev} />
       </div>
     </>
   );
