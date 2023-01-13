@@ -8,7 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutMeElements";
-function About() {
+function AboutMe() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
@@ -38,4 +38,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutMe;

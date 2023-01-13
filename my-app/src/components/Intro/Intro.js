@@ -11,7 +11,7 @@ import {
   ScrollLink,
 } from "./IntroElements";
 
-const Hero = () => {
+const Intro = () => {
   return (
     <main>
       <HeroContainer>
@@ -45,4 +45,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Intro;
