@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects";
 import AboutMe from "./components/Aboutme/AboutMe";
-import Intro from "./components/Intro/Intro";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Intro />
       <Projects />
       <AboutMe />
+      <Contact />
     </Router>
   );
 };
