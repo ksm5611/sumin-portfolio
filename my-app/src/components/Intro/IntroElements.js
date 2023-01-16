@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
-export const HeroContainer = styled.div`
+export const IntroContainer = styled.div`
   padding-bottom: 2rem;
   padding-top: 4rem;
   padding-right: 1rem;
@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
   }
 `;
 
-export const HeroWrapper = styled.div`
+export const IntroWrapper = styled.div`
   display: flex;
   flex-direction: row;
   @media screen and (max-width: 992px) {
@@ -32,7 +32,7 @@ export const HeroWrapper = styled.div`
   }
 `;
 
-export const HeroLeft = styled.div`
+export const IntroLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@ export const HeroLeft = styled.div`
   }
 `;
 
-// export const HeroRight = styled.div`
+// export const IntroRight = styled.div`
 //   flex: 1;
 //   justify-content: center;
 //   display: flex;
