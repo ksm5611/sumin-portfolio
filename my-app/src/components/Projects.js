@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = (props) => {
   return (
     <>
-      <div className="ui center aligned container">
+      <div className="ui center aligned container" id="projects">
         <h1>Projects</h1>
       </div>
       <ProjectCard
