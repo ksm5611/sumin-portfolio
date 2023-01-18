@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
-import projects from "../apis/projects";
+import projects from "../../../apis/projects";
+import {
+  Card,
+  CardLeft,
+  CardRight,
+  Stack,
+  BtnGroup,
+} from "./ProjectCardElements";
 
 const ProjectCard = () => {
   const [projectInfo, setProjectInfo] = useState([]);
 
   const fetchProjects = async () => {
     const response = await projects.get("/projects/");
-    console.log("here", response);
     setProjectInfo(response.data);
   };
 
@@ -18,18 +24,20 @@ const ProjectCard = () => {
             return <div>Loading..</div>;
           } else {
             return (
-              <div className="card" key={project.name}>
-                <img alt="img" src={project.image} />
-                <div className="content">
-                  <div className="header">{project.name}</div>
+              <Card key={project.name}>
+                <CardLeft>
+                  <img alt="img" src={project.image} />
+                </CardLeft>
+                <CardRight>
+                  <h4 className="header">{project.name}</h4>
                   <div className="description">{project.description}</div>
-                </div>
-                <div className="extra content">
-                  <a href={project.github}>
-                    <button className="ui button">github</button>
-                  </a>
-                </div>
-              </div>
+                  <BtnGroup>
+                    <a href={project.github} className="btn btn2 SecondarBtn">
+                      github
+                    </a>
+                  </BtnGroup>
+                </CardRight>
+              </Card>
             );
           }
         })}
