@@ -131,10 +131,12 @@ video {
   font-size: 28px;
   color: #151418;
   font-weight: 700;
-  margin-bottom: 3.5rem;
+  /* margin-bottom: 3.5rem; */
+  margin-bottom: 30px;
 }
 .ProjectWrapper {
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
+  margin-top: 100px;
 }
 
 /* ------------------------------------ Media for Container */
@@ -148,7 +150,8 @@ video {
     max-width: 720px;
   }
   .ProjectWrapper {
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
+    margin-top: 100px;
   }
 }
 @media (min-width: 992px) {
