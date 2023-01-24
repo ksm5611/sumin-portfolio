@@ -63,6 +63,14 @@ export const IntroLeft = styled.div`
   }
 `;
 
+export const Arrow = styled.div`
+  display: block;
+  position: fixed;
+  bottom: 5%;
+  right: 43.5px;
+  z-index: 1;
+`;
+
 // export const IntroRight = styled.div`
 //   flex: 1;
 //   justify-content: center;
@@ -89,9 +97,8 @@ const ScrollAnimation = keyframes`
     transform: translateY(-10px);
   }
 `;
-
-export const ScrollDown = styled(LinkScroll)`
-  margin-top: 3rem;
+export const ScrollUp = styled(LinkScroll)`
+  margin-top: 15px;
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
@@ -100,12 +107,10 @@ export const ScrollDown = styled(LinkScroll)`
     justify-content: center;
   }
 `;
-
 export const ScrollLink = styled.div`
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
-  color: #f6f6f6;
+  font-size: 40px;
   img {
     height: 35px;
     width: 35px;
