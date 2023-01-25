@@ -4,10 +4,7 @@ This was a final project for the Web Development Bootcamp at Lighthouse Labs, cr
 
 ## Tech Stack
 
-We used PostgreSQL, Express, ReactJS, and NodeJS from a template made by two of our mentors, Garrett (@garrettgsb on Slack) and Nima `nima@lighthouselabs.com`.
-
-The property listings page on this app uses GoogleMaps API, so you will need to obtain your own API key to make the map work.
-
+This app was used ReactJS, styled-components, Mui, bootstrap, react-type-animation, css for front-end and Python Django, sqlite3 for back-end.
 
 ## Running the project
 
@@ -20,7 +17,7 @@ In the second terminal, `cd` into ` my-app`. Run `npm install` to install the de
 ## Features & Screenshots
 
 Full monitor screen shot
-!["ERD"](https://github.com/ksm5611/RentCouver/blob/master/ReadmeScreenshots/ERD.png)
+!["ERD"](https://github.com/ksm5611/sumin-portfolio/ReadmeScreenshots/WebVersion.png)
 
 Mobile version screen shot
-!["Sign Up Page"](https://github.com/ksm5611/RentCouver/blob/master/ReadmeScreenshots/SignUp.png)
+!["Sign Up Page"](https://github.com/ksm5611/sumin-portfolio/ReadmeScreenshots/MobileVersion.png)
