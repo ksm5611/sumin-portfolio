@@ -39,12 +39,12 @@ export const IntroLeft = styled.div`
   align-items: flex-start;
   text-align: left;
   flex: 1;
-  h1 {
-    font-size: 2.8rem;
-    color: #f6f6f6;
-    opacity: 0.98;
-    font-weight: 400;
-  }
+  // h1 {
+  //   font-size: 2.8rem;
+  //   color: #f6f6f6;
+  //   opacity: 0.98;
+  //   font-weight: 400;
+  // }
   h5 {
     font-size: 1.6rem;
     color: rgb(119, 119, 121);
@@ -70,12 +70,6 @@ export const Arrow = styled.div`
   right: 43.5px;
   z-index: 1;
 `;
-
-// export const IntroRight = styled.div`
-//   flex: 1;
-//   justify-content: center;
-//   display: flex;
-// `;
 
 export const Image = styled.img`
   height: 300px;
@@ -117,3 +111,5 @@ export const ScrollLink = styled.div`
     margin-left: 6px;
   }
 `;
+
+// export const TypeAnimation = styled.div``;
