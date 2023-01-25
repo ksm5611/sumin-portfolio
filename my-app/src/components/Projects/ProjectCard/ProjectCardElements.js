@@ -51,21 +51,6 @@ export const CardRight = styled.div`
   }
 `;
 
-// export const Stack = styled.div`
-//   display: flex;
-//   align-items: center;
-//   margin-bottom: 5px;
-//   .stackTitle {
-//     font-weight: 500;
-//     margin-right: 10px;
-//     font-size: 17px;
-//   }
-//   .tags {
-//     font-size: 15px;
-//     font-weight: 400;
-//   }
-// `;
-
 export const BtnGroup = styled.div`
   height: 70px;
   display: flex;

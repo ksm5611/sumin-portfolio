@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from "react";
 import projects from "../../../apis/projects";
-import {
-  Card,
-  CardLeft,
-  CardRight,
-  Stack,
-  BtnGroup,
-} from "./ProjectCardElements";
+import { Card, CardLeft, CardRight, BtnGroup } from "./ProjectCardElements";
 
 const ProjectCard = () => {
   const [projectInfo, setProjectInfo] = useState([]);
