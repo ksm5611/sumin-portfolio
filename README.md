@@ -17,7 +17,7 @@ In the second terminal, `cd` into ` my-app`. Run `npm install` to install the de
 ## Features & Screenshots
 
 Full monitor screen shot
-!["Web version"](WebVersion.png)
+![WebVersion](https://user-images.githubusercontent.com/79038060/214721774-3d87413c-3703-4192-abbf-a6d0a0692d4c.png)
 
 Mobile version screen shot
-!["Mobile version"](MobileVersion.png)
+![MobileVersion](https://user-images.githubusercontent.com/79038060/214721827-ad0bacaa-a938-42fd-9030-be6d7c86b963.png)
