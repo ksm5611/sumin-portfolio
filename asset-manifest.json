@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sumin-portfolio/static/css/main.1fe9de0a.css",
+    "main.js": "/sumin-portfolio/static/js/main.2d065088.js",
+    "static/js/787.28cb0dcd.chunk.js": "/sumin-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/sumin-portfolio/index.html",
+    "main.1fe9de0a.css.map": "/sumin-portfolio/static/css/main.1fe9de0a.css.map",
+    "main.2d065088.js.map": "/sumin-portfolio/static/js/main.2d065088.js.map",
+    "787.28cb0dcd.chunk.js.map": "/sumin-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fe9de0a.css",
+    "static/js/main.2d065088.js"
+  ]
+}
